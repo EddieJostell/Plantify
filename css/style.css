@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    width:100%;
+    height:100%;
+}
+
+body {
+    width:100%;
+	height:100%;
+	min-height: 100%;
+    background-color:  lightgrey;
+	/*overflow: auto;*/
+}
+
+
+
+
+/*HEADER */
+.nav-head {
+	width: 50%;
+	height: 12em;
+	background-color: black;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.plantlogo {
+    position: absolute;
+    top: 0.5em;
+    left: 30.5em;
+}
+
+.title {
+	color: #558b2f;
+	margin-top: 0.5em;
+	font-family: "Impact";
+	font-size: 4rem;
+	justify-content: center;
+	align-self: center;
+
+}
+
+nav {
+	width: 100%;;
+	height: 30%;
+    justify-content: center;
+	align-items: flex-end;
+	display: flex;
+}
+
+/*HEADER END*/
+
+/**/
+.container {
+	width: 50%;
+	height: auto;
+	margin: 0 auto;
+	background-color: #f0f3bd;
+	border: 1px solid black;
+}
+
+.homepage {
+	width:100%;
+	height: 50.7em;
+	border: 4px solid cyan;
+}
+
+
+
+.maincontent {
+	width: 50%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.h2-title {
+	font-family: "Impact";
+	color: #558b2f;
+	font-size: 2.5rem;
+	/*margin-left: 32%;*/
+	
+}
+
+.h3-title {
+    color: #558b2f;
+	font-size: 2rem;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+.maincontent p {
+	margin-top: 5px;
+	font-size: 24px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: black;
+}
+
+.centerImg {
+    margin-top: -30px;
+	margin-left: 13em;
+}
+
+footer {
+	width: 100%;
+	height: 10%;
+	min-height: 100px;
+	background-color: #004d40;
+}
