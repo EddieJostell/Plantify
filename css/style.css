@@ -1,6 +1,6 @@
 /*
 CSS Specificity calculation in the form of : 0,0,0,0.
-first: inlin-style css.
+first: inline-style css.
 second: IDs.
 third: classes, attributes and psuedo-classes.
 fourth: elements and pseudo-elements.
@@ -17,10 +17,14 @@ fourth: elements and pseudo-elements.
 /*0,0,0,1*/
 html {
    background-color:  lightgrey;
+   padding: 0;
+   margin: 0;
 }
 /*0,0,0,1*/
 body {
     background-color:  lightgrey;
+	padding: 0;
+    margin: 0;
 }
 
 /*HEADER */
@@ -30,20 +34,36 @@ body {
 /*Class that controls the header tag on all pages*/
 .nav-head {
 	width: 50%;
-	height: 12em;
+	height: auto;
 	background-color: black;
 	margin: 0 auto;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
+	/*border: 1px solid red;*/
 }
+
+/*.logo-div {
+	width: 130px;
+	height: 170px;
+	border: 5px solid cyan;
+	
+}*/
 
 /*Class control the logo on all pages*/
 /*0,0,1,0*/
-.plantlogo {
+/*.plantlogo {
     position: absolute;
     top: 0.5em;
     left: 30.5em;
+	float: left;
+	position: top;
+}*/
+
+.logo-title-div {
+	border: 5px solid greenyellow;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	/*margin-left: auto;
+	margin-right: auto;*/
 }
 
 /*0,0,1,0*/
@@ -53,29 +73,27 @@ body {
 	margin-top: 0.5em;
 	font-family: "xscale";
 	font-size: 4rem;
-	justify-content: center;
+	/*margin: 0 auto;*/
+	/*justify-content: center;
 	align-self: center;
-
+*/
 }
 
 /*0,0,0,1*/
-nav {
-	width: 100%;;
+/*.navbar {
+	width: 80%;;
 	height: 30%;
-    justify-content: center;
-	align-items: flex-end;
-	display: flex;
-}
+	border: 5px solid red;
+	float: right;
+}*/
 
 /*HEADER END*/
 
 /*Center image on homepage*/
 /*0,0,1,0*/
 .centerImg {
-
 	margin-top: -30px;
-	margin-left: 15em;
-	
+	margin-left: 15em;	
 }
 
 /*Center image on Pricing page*/
@@ -100,7 +118,7 @@ nav {
 /*0,0,1,0*/
 .container {
 	width: 50%;
-	height: auto;
+	height: 100%;
 	margin: 0 auto;
 	background-color: #f0f3bd;
 	border: 5px solid black;
@@ -196,22 +214,26 @@ nav {
 
 /*Class controls all ul elements that has that class and the children within it*/
 /*0,0,1,0*/
-.list {
-	margin-top: 1rem;
-	margin-left: 1rem;
+.theme-container {
+  width: 100%;
+  height: auto;
+  border: 2px solid red;
 }
 
-/*0,0,1,1*/
-.list h3 {
+/*0,0,1,0*/
+.theme-h3 {
     color: #558b2f;
+	font-family: "xscale";
+	font-size: 2em;
 }
 
-/*0,0,1,1*/
-.list li {
+/*0,0,1,0*/
+.theme-text {
+	text-decoration-style: none;
 	margin-top: 1rem;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	color: black;
-	font-size: 1em;
+	font-size: 10px;
 }
 
 /*END  OF PLANT THEMES PAGE*/
@@ -220,18 +242,18 @@ nav {
 /*ABOUT US PAGE*/
 /*Class controls all ul elements that has that class and the children within it*/
 /*0,0,1,0*/
-.list2 {
+.about-list {
     margin-top: 1rem;
     margin-left: 1rem;
 }
 
 /*0,0,1,1*/
-.list2 h3 {
+.about-list h3 {
     color: #558b2f;
 }
 
 /*0,0,1,1*/
-.list2 li {
+.about-li {
 	margin-top: 1rem;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	color: black;
@@ -365,6 +387,7 @@ nav {
 	height: 3.2em;
 	background-color: #000;
 	color: white;
+	border: 3px solid cyan;
 }
 /*0,0,1,1*/
 .footer li {
@@ -373,9 +396,15 @@ nav {
 	color: white;
 }
 
+.footer-list {
+	border: 1px solid red;
+}
+
 /*Class control the li element specificly in the footer ul on all the pages*/
 /*0,0,1,0*/
 .flist {
+	display: block;
+    text-decoration-style: none;
 	text-decoration: none;
 }
 /*0,0,2,0*/
