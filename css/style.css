@@ -121,7 +121,6 @@ body {
 	height: 100%;
 	margin: 0 auto;
 	background-color: #f0f3bd;
-	border: 5px solid black;
 }
 
 /*Class for all wrapping divs of article on all pages*/
@@ -223,8 +222,7 @@ body {
 /*0,0,1,0*/
 .theme-h3 {
     color: #558b2f;
-	font-family: "xscale";
-	font-size: 2em;
+    font-family: "xscale";
 }
 
 /*0,0,1,0*/
