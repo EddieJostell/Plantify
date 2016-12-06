@@ -19,12 +19,15 @@ html {
    background-color:  lightgrey;
    padding: 0;
    margin: 0;
+   height: 100%;
 }
 /*0,0,0,1*/
 body {
     background-color:  lightgrey;
 	padding: 0;
     margin: 0;
+	height: 100%;
+	border: 1px solid cyan;
 }
 
 /*HEADER */
@@ -40,13 +43,6 @@ body {
 	/*border: 1px solid red;*/
 }
 
-/*.logo-div {
-	width: 130px;
-	height: 170px;
-	border: 5px solid cyan;
-	
-}*/
-
 /*Class control the logo on all pages*/
 /*0,0,1,0*/
 /*.plantlogo {
@@ -58,7 +54,6 @@ body {
 }*/
 
 .logo-title-div {
-	border: 5px solid greenyellow;
 	width: 100%;
 	height: auto;
 	text-align: center;
@@ -121,14 +116,16 @@ body {
 	height: 100%;
 	margin: 0 auto;
 	background-color: #f0f3bd;
+	border: 10px solid yellow;
 }
 
 /*Class for all wrapping divs of article on all pages*/
 /*0,0,1,0*/
-.homepage {
+/*.homepage {
 	width:100%;
 	height: 50.7em;
-}
+	border: 1px solid cyan;
+}*/
 
 /*Class for all article tags on all pages*/
 /*0,0,1,0*/
@@ -143,9 +140,8 @@ body {
 .h3-title {
 	font-family: "xscale";
     color: #558b2f;
-	font-size: 2rem;
-	margin-left: 25%;
-	margin-right: 25%;
+	font-size: 3rem; 
+	text-align: center;
 }
 
 /*Class controlling all p tags in all article tags that have p tags */
@@ -219,14 +215,20 @@ body {
   border: 2px solid red;
 }
 
+.theme-container p {
+  color: red;
+  font-size: 1em;
+}
+
 /*0,0,1,0*/
 .theme-h3 {
     color: #558b2f;
     font-family: "xscale";
+	font-size: 3em;
 }
 
 /*0,0,1,0*/
-.theme-text {
+.theme-text p {
 	text-decoration-style: none;
 	margin-top: 1rem;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -240,25 +242,16 @@ body {
 /*ABOUT US PAGE*/
 /*Class controls all ul elements that has that class and the children within it*/
 /*0,0,1,0*/
-.about-list {
-    margin-top: 1rem;
-    margin-left: 1rem;
+.about-container {
+	width:100%;
+	height: auto;
+	border: 1px solid red;
 }
 
-/*0,0,1,1*/
-.about-list h3 {
-    color: #558b2f;
-}
-
-/*0,0,1,1*/
-.about-li {
-	margin-top: 1rem;
+.about-container p {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	color: black;
-	font-size: 1.5em;
+	font-size: 1em;
 }
-
-
 /*END OF ABOUT US PAGE*/
 
 /*CONTACT PAGE*/
