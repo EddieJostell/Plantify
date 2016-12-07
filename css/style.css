@@ -107,6 +107,22 @@ body {
 
 /*END OF CENTER ALL IMAGES ON THE SITE*/
 
+
+/*INDEX PAGE*/
+
+.index-article {
+ width: 100%;
+ height: auto;
+ border: 1px solid red;
+}
+
+.index-article p {
+	color: cyan;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*END OF INDEX PAGE*/
+
 /*CONTENT HOLDERS ON ALL PAGES*/
 
 /*class for all the main tags on the page*/
@@ -144,7 +160,7 @@ body {
 	text-align: center;
 }
 
-/*Class controlling all p tags in all article tags that have p tags */
+/*Class controlling all p tags in all div (main) tags that have p tags */
 /*0,0,1,1*/
 .maincontent p {
 	margin-top: 5px;
