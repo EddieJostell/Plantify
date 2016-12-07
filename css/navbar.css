@@ -40,7 +40,10 @@ ul.topnav li.right {
 
 @media screen and (max-width: 918px){
     ul.topnav li.right, 
-    ul.topnav li {float: none;}
+    ul.topnav li {
+        float: none;
+}
+
 }
 
 /*SLUT PÅ NAVBAR*/
