@@ -27,7 +27,7 @@ body {
 	padding: 0;
     margin: 0;
 	height: 100%;
-	border: 1px solid cyan;
+	/*border: 1px solid cyan;*/
 }
 
 /*HEADER */
@@ -40,7 +40,6 @@ body {
 	height: auto;
 	background-color: black;
 	margin: 0 auto;
-	/*border: 1px solid red;*/
 }
 
 /*Class control the logo on all pages*/
@@ -57,8 +56,6 @@ body {
 	width: 100%;
 	height: auto;
 	text-align: center;
-	/*margin-left: auto;
-	margin-right: auto;*/
 }
 
 /*0,0,1,0*/
@@ -68,19 +65,7 @@ body {
 	margin-top: 0.5em;
 	font-family: "xscale";
 	font-size: 4rem;
-	/*margin: 0 auto;*/
-	/*justify-content: center;
-	align-self: center;
-*/
 }
-
-/*0,0,0,1*/
-/*.navbar {
-	width: 80%;;
-	height: 30%;
-	border: 5px solid red;
-	float: right;
-}*/
 
 /*HEADER END*/
 
@@ -113,12 +98,18 @@ body {
 .index-article {
  width: 100%;
  height: auto;
- border: 1px solid red;
 }
 
 .index-article p {
 	color: cyan;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 0.5rem;
+}
+
+#whynot {
+	color: black;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 2rem;
 }
 
 /*END OF INDEX PAGE*/
@@ -129,19 +120,10 @@ body {
 /*0,0,1,0*/
 .container {
 	width: 50%;
-	height: 100%;
+	height: auto;
 	margin: 0 auto;
 	background-color: #f0f3bd;
-	border: 10px solid yellow;
 }
-
-/*Class for all wrapping divs of article on all pages*/
-/*0,0,1,0*/
-/*.homepage {
-	width:100%;
-	height: 50.7em;
-	border: 1px solid cyan;
-}*/
 
 /*Class for all article tags on all pages*/
 /*0,0,1,0*/
@@ -228,12 +210,11 @@ body {
 .theme-container {
   width: 100%;
   height: auto;
-  border: 2px solid red;
 }
 
 .theme-container p {
   color: red;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 /*0,0,1,0*/
@@ -393,7 +374,7 @@ body {
 	height: 3.2em;
 	background-color: #000;
 	color: white;
-	border: 3px solid cyan;
+	margin-top: 10px;
 }
 /*0,0,1,1*/
 .footer li {
@@ -403,15 +384,17 @@ body {
 }
 
 .footer-list {
-	border: 1px solid red;
+	
+	
 }
 
 /*Class control the li element specificly in the footer ul on all the pages*/
 /*0,0,1,0*/
 .flist {
-	display: block;
-    text-decoration-style: none;
+	display: inline-block;
 	text-decoration: none;
+	font-size: 1.1rem;
+	margin-top: 15px;
 }
 /*0,0,2,0*/
 .flist:before {
@@ -423,3 +406,14 @@ body {
 }
 
 /*END OF FOOTER*/
+
+@media screen and (max-width: 980px) {
+    body {
+        background-color: lightgreen;
+    }
+
+    .flist {
+	    text-decoration: none;
+        font-size: 0.5rem;
+    }
+}
